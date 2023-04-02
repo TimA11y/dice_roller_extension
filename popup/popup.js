@@ -43,6 +43,7 @@ form.addEventListener("submit", function (event) {
   sides = parseInt(sides);
 
   let results = rollDice(number, sides);
+  txtDice.setSelectionRange(0, txtDice.value.length);
   sendMessage(`${results.total} [${results.rolls.join(", ")}] (${dice})`);
   event.preventDefault();
 }); // end submit event.
