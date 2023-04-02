@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Dice Roller",
+  "description": "An extension for rolling dice.",
+  "version": "1.00.00",
+  "action": {
+    "default_popup": "./popup/popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      },
+      "description": "Run the dice roller extension."
+    }
+  }
+}
