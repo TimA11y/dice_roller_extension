@@ -53,6 +53,6 @@ form.addEventListener("submit", function (event) {
 
   let results = rollDice(number, sides, bonus);
   txtDice.setSelectionRange(0, txtDice.value.length);
-  sendMessage(`${results.total} [${results.rolls.join(", ")}] (${dice})`);
+  sendMessage(`Result: ${results.total} [Rolled: ${results.rolls.join(", ")}] (Dice: ${dice})`);
   event.preventDefault();
 }); // end submit event.

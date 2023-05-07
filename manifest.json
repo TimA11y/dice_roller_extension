@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Dice Roller",
   "description": "An extension for rolling dice.",
-  "version": "1.01.00",
+  "version": "1.2.0",
   "action": {
     "default_popup": "./popup/popup.html"
   },
